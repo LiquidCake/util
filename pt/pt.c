@@ -3,9 +3,10 @@
 #include<string.h>
 
 main(int argc, char *argv[]) {
-
-    if (sizeof(argv) / sizeof(char) != 1) {
-        printf("Usage: pt <pytho script path>\n");
+    
+    if (argc != 2) {
+        printf("Usage: pt <python script path>\n");
+        exit(0);
     }
 
     printf("Python shell started\n");
