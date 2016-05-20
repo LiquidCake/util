@@ -12,13 +12,6 @@ main(int argc, char *argv[]) {
 
     const char *shell_cmd = "python ";
 
-    //size_t shell_cmd_len = strlen(shell_cmd);
-    //size_t path_len = strlen(script_path);
-
-    //char *command = (char*) malloc(shell_cmd_len + path_len);
-    //strncat(command, shell_cmd, shell_cmd_len);
-    //strncat(command, script_path, path_len);
-
     char buffer[1024] = "";
     char *p_buffer = buffer;
 
